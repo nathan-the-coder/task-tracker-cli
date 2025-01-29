@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 click = "*"
+prettytable = "*"
 
 [dev-packages]
 
