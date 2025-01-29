@@ -1,0 +1,4 @@
+-i https://pypi.org/simple
+click==8.1.8; python_version >= '3.7'
+prettytable==3.13.0; python_version >= '3.9'
+wcwidth==0.2.13

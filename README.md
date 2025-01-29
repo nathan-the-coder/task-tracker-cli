@@ -2,6 +2,10 @@
 
 A simple command-line task tracker built in Python. This tool allows you to add, delete, update, and manage tasks efficiently.
 
+## Project Reference
+
+This task tracker CLI program is a solution to the task-tracker CLI project from [roadmap.sh](https://roadmap.sh/projects/task-tracker).
+
 ## Features
 - Add new tasks
 - Delete tasks
@@ -16,19 +20,21 @@ Ensure you have Python installed (>=3.10 recommended).
 
 ### Clone the Repository
 ```sh
-git clone <repository-url>
+git clone https://github.com/nathan-the-coder/task-tracker-cli
 cd task-tracker-cli
 ```
 
 ### Install Dependencies
+
+If using Pipenv:
 ```sh
-pip install -r requirements.txt
+pipenv install
 ```
 
 ## Usage
 Run the script using:
 ```sh
-python task_tracker.py <command> [arguments]
+pipenv run python task-cli.py <command> [arguments]
 ```
 
 ### Available Commands
@@ -41,10 +47,10 @@ python task_tracker.py <command> [arguments]
 
 ## Example Usage
 ```sh
-python task_tracker.py add "Finish project report"
-python task_tracker.py list
-python task_tracker.py mark-done 1
-python task_tracker.py delete 2
+pipenv run python task-cli.py add "Finish project report"
+pipenv run python task-cli.py list
+pipenv run python task-cli.py mark-done 1
+pipenv run python task-cli.py delete 2
 ```
 
 ## Data Persistence
@@ -52,5 +58,4 @@ Tasks are stored in `data.json`. Ensure this file is writable for proper functio
 
 ## License
 This project is licensed under the MIT License.
-
 
