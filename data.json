@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "description": "Test task 2",
+        "status": "TaskStatus.Todo",
+        "createdAt": "2025-01-29 10:00:05",
+        "updatedAt": "2025-01-29 10:00:10"
+    },
+    {
+        "id": 2,
+        "description": "Test task new",
+        "status": "TaskStatus.Todo",
+        "createdAt": "2025-01-29 10:00:07",
+        "updatedAt": null
+    }
+]
